@@ -1,7 +1,7 @@
 --desynchronize_mapblock_texture_animation = false
 --lava is now animated by default.
 fluid_types = {'source', 'flowing'}
-speeds = {'1.6', '1.6'}
+speeds = {'3', '2'}
 
 for fluid_type=1,#fluid_types do
 	name = 'water'..'_'..fluid_types[fluid_type]
